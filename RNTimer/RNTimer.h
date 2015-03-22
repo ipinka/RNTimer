@@ -56,6 +56,9 @@
 + (RNTimer *)repeatingTimerWithTimeInterval:(NSTimeInterval)seconds block:(dispatch_block_t)block;
 
 
++ (RNTimer *)repeatingTimerWithTimeInterval:(NSTimeInterval)seconds delay:(NSTimeInterval)delay block:(dispatch_block_t)block;
+
+
 /**---------------------------------------------------------------------------------------
  @name Firing a Timer
  -----------------------------------------------------------------------------------------
